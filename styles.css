@@ -1,0 +1,18 @@
+
+#channelLogo {
+    height: 5em;
+}
+
+#channelInfo,
+#game {
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+#status {
+    margin-top: 3%;
+}
+
+#title {
+    text-align: center;
+}
