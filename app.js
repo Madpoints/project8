@@ -46,8 +46,8 @@ $(document).ready(function () {
                             channelListItem.append(status)
                         }
                         else {
-                            link.attr("href", response.stream.channel.url)
-                            link.text(response.stream.game);
+                            link.attr("href", response.stream.channel.url);
+                            link.text("Click to watch: " + response.stream.game);
                             game.append(link);
                             status.text(response.stream.channel.status);
                             game.append(status);

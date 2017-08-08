@@ -1,12 +1,38 @@
+a {
+    color:inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Saira Semi Condensed';
+    font-size: 1.5em;
+    background-color: #4B367C;
+}
 
 #channelLogo {
     height: 5em;
+}
+
+#channelInfo {
+    font-size: 1.5em;
 }
 
 #channelInfo,
 #game {
     margin-left: 10%;
     font-weight: bold;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+li {
+    color: #2C2640;
+}
+
+.list-group-item {
+    background-color: #CCBFE6;
 }
 
 #status {
